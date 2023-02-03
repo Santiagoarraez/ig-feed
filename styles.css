@@ -1,0 +1,42 @@
+* { margin: 0px;
+    font-family: 'Roboto', sans-serif;
+} 
+/* NAVIGATION BAR  */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    font-size: 3vh;
+}
+.navbar >img {height: 100%;}
+/* FEED CONTTAINER */
+.feed-container{
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    min-height: 100vh;
+padding: 40px;}
+/* POST */
+.post {background-color: white;width: 550px;}
+/* POST HEADER */
+.post-header {display:flex;justify-content: space-between;padding: 10px;}   
+.post-header-left {display: flex;gap: 5px;}
+.foto-perfil {border-radius: 100%;height: 50px;width: 50px;}
+.username {margin-top: 8px;}
+.post-header-right{font-size: 35px;padding: 10px;}
+/* POST HEADER END */
+/* POST IMAGE */
+.post-img > img {width: 100%;}
+/* POST ACTIONS */
+.post-actions {display: flex;justify-content: space-between;padding: 13px;font-size: 35px}
+.post-actions-left {display: flex; gap: 30px;}
+/* POST ACTIONS END */
+/* POST CAPTION DATE */
+.post-caption {padding:10px}
+.fecha-traduccion {display: flex;gap: 8px;}
+.fecha {color: lightslategray;}
+/* POST CAPTION DATE END */
